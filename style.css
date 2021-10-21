@@ -1,0 +1,26 @@
+:root {
+  --color: rgba(56, 160, 9, 0.685);
+}
+
+#header {
+  color: var(--color);
+}
+
+body {
+  font: 400 4rem 'Overlock', sans-serif;
+}
+
+h1 {
+  font: 700 2.5rem 'Overlock', sans-serif;
+  color: var(--color);
+}
+
+p {
+  font: 400 1.5rem 'Overlock', sans-serif;
+}
+
+.container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 70%;
+}
