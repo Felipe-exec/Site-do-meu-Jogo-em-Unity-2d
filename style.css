@@ -1,26 +1,91 @@
-:root {
-  --color: rgba(56, 160, 9, 0.685);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#header {
-  color: var(--color);
-}
-
+html,
 body {
-  font: 400 4rem 'Overlock', sans-serif;
+  height: 100%;
 }
 
-h1 {
-  font: 700 2.5rem 'Overlock', sans-serif;
-  color: var(--color);
+.logo {
+  cursor: pointer;
 }
 
-p {
-  font: 400 1.5rem 'Overlock', sans-serif;
+.logo h1 {
+  font-family: 'Press Start 2P';
+  font-size: 2.2rem;
 }
 
-.container {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  width: 70%;
+.logo h1 span {
+  color: red;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 120px;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  font-family: 'Press Start 2P';
+  font-weight: 600;
+
+  font-size: 1.1rem;
+
+  margin-left: 48px;
+
+  list-style: none;
+}
+
+nav ul li a {
+  color: #000;
+
+  text-decoration: none;
+}
+
+nav ul li .started {
+  font-size: 1.2rem;
+  color: #fff;
+
+  padding: 10px 20px;
+  background-color: rgb(2, 225, 233);
+  border-radius: 20px;
+}
+
+nav ul li .started:hover {
+  background-color: rgb(2, 179, 233);
+  transition: 0.5;
+}
+
+main {
+  margin-top: 3rem;
+}
+
+.content {
+  display: flex;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+.text-title {
+  font-family: Overlock;
+  font-size: 1.8rem;
+}
+
+.text-subtitle {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+
+  font-family: Overlock;
+
+  max-width: 450px;
 }

@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,21 +10,56 @@
       href="https://fonts.googleapis.com/css2?family=Overlock&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <link rel="Shortcut icon" href="imagens/fox.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FLSGAMES</title>
   </head>
   <body>
-    <!-- Cabeçalho -->
-    <header id="header">
-      <nav class="container">
-        <a href="#">Catch the nut, Squirrel!</a>
-        <br />
-      </nav>
-    </header>
-    <!-- MAIN -->
-    <main>
-      <section>
+    <div class="raiz">
+      <header>
         <div class="container">
+          <div class="logo">
+            <h1><span>FLS</span>GAMES</h1>
+          </div>
+          <nav>
+            <ul>
+              <li><a href="#INICIO">INICIO</a></li>
+              <li><a href="#ATUALIZACOES">ATUALIZACOES</a></li>
+              <li><a href="#CREDITOS">CREDITOS</a></li>
+              <li><a href="#" class="started">EM BREVE</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <!-- Primeira página -->
+        <div class="section" id="INICIO"></div>
+        <div class="content">
+          <div class="texts">
+            <div class="text-title">
+              <h1>A Floresta Secreta</h1>
+            </div>
+            <div class="text-subtitle">
+              <h3>
+                Um jogo de plataforma feito por uma pequena equipe de estudantes
+                na Engine do Unity Technologies!
+              </h3>
+              <img
+                src="/imagens/Unity_Technologies_logo.svg.png"
+                alt=""
+                height="109"
+                width="300"
+              />
+              <br><br>
+              <h3>A FLSGAMES é uma equipe pequena composta por 3 pessoas, entre elas: Felipe Menezes Sacramento, Leonardo Fragoso de Mello e Sander Piva. A nossa equipe foi formada com o intuito de realizar um projeto acadêmico de um jogo digital para a Matéria de Fundamentos de Jogos Digitas. O jogo está sendo desenvolvido na Unity 2D e sua linguagem por padrão é a Csharp. Estamos aprendendo e esperamos que, em breve, possamos disponibilizar o jogo para download no próprio site, e o melhor, totalmente de graça!</h3>
+            </div>
+          </div>
           <div id="video">
             <video
               src="imagens\VIDEOJOGO.mp4"
@@ -36,45 +70,39 @@
               loop
             ></video>
           </div>
-          <h1>Um jogo em desenvolvimento na Engine da Unity Technologies!</h1>
-          <p>
-            A FLS GAMES está desenvolvendo um jogo de plataforma baseado nos
-            jogos antigos, como Mario, Sonic e entre muitos outros!
-          </p>
         </div>
-      </section>
-      <section>
-        <div class="container">
-          <h1>Sobre nós</h1>
-          <p>
-            A FLS GAMES é uma equipe pequena composta por 3 pessoas, entre elas:
-            Felipe Menezes Sacramento, Leonardo Fragoso de Mello e Sander Piva.
-            A nossa equipe foi formada com o intuito de realizar um projeto
-            acadêmico de um jogo digital para nosso professor Fábio Corsini. O
-            jogo está sendo desenvolvido na Unity 2D e sua linguagem por padrão
-            é a Csharp. Estamos aprendendo e esperamos que, em breve, possamos
-            disponibilizar o jogo para download no nosso próprio site! E o
-            melhor, totalmente de graça!
-          </p>
+        <br>
+        <!-- Segunda página -->
+        <div class="section" id="ATUALIZACOES">
+          <div class="content">
+            <div class="texts">
+              <div class="text-title">
+                <br>
+                <h1>ATUALIZAÇÕES</h1>
+              </div>
+              <div class="text-subtitle">
+                <h3>Versão 0.1: Lançamento EM BREVE do jogo em sua versão Alpha. Lançaremos a primeira Build do jogo quando ela estiver totalmente funcional. Não se preocupe, postaremos o download no site.</h3>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-      <section>
-        <div class="container">
-          <h1>Créditos</h1>
-          <img
-            src="imagens/patreon-cover_7.png"
-            alt="Imagem dos sprites do jogo"
-          />
-          <p>
-            Todos os créditos ao dono dos sprites: @ansimuz. Também damos
-            créditos à Unity Technologies por disponibilizar a Engine Unity de
-            graça para os usuários. Também é válido citar o Professor Fábio
-            Corsini do IFMG - Campus Machado como incentivador do nosso projeto.
-          </p>
-          <p>Sem eles, esse projeto não teria vida.</p>
+        <!-- Terceira página -->
+        <div class="section" id="CREDITOS">
+          <div class="content">
+            <div class="texts">
+              <div class="text-title">
+                <br>
+                <h1>CRÉDITOS</h1>
+              </div>
+              <div class="text-subtitle">
+                <h3>Todos os Direitos Reservados ao dono das Sprites usadas no jogo: @ansimuz <img src="/imagens/patreon-cover_7.png" alt=""></h3>
+                <h3>Também damos créditos à plataforma Unity por disponibilizar a Engine para o uso gratuito. <img src="/imagens/unity_icon_136074.png" alt=""></h3>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-    </main>
-    <footer></footer>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
